@@ -1,3 +1,3 @@
 # Animated grid
 
-# Just for fun
+*Just for fun
