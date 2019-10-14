@@ -1,0 +1,228 @@
+<div class="container">
+  <div class="line1"></div>
+  <div class="line2"></div>
+  <div class="line3"></div>
+  <div class="line4"></div>
+  <div class="line5"></div>
+  <div class="line6"></div>
+  <div class="line7"></div>
+  <div class="line8"></div>
+  <div class="line9"></div>
+        <div class="vertical1"></div>
+        <div class="vertical2"></div>
+        <div class="vertical3"></div>
+        <div class="vertical4"></div>
+        <div class="vertical5"></div>
+        <div class="vertical6"></div>
+        <div class="vertical7"></div>
+        <div class="vertical8"></div>
+        <div class="vertical9"></div>
+</div>
+
+<style>
+
+.container {
+  width: 180px;
+  height: 180px;
+  margin: 100px auto;
+  background: pink;
+}
+
+.line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9 {
+  float:left;
+  width: 2px;
+  height: 100%;
+  background: red;
+}
+
+.line1 {
+  animation:
+    move 1s infinite ease-in-out;
+}
+
+.line2 {
+  position: relative;
+  left: 20px;
+  animation:
+    move2 1s infinite ease-in-out;
+    animation-delay: 0.3s;
+}
+
+.line3 {
+  position: relative;
+  left: 40px;
+  animation:
+    move 1s infinite ease-in-out;
+    animation-delay: 0.4s;
+}
+
+.line4 {
+  position: relative;
+  left: 60px;
+  animation:
+    move2 1s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+
+.line5 {
+  position: relative;
+  left: 80px;
+  animation:
+    move 1s infinite ease-in-out;
+    animation-delay: 0.6s;
+}
+
+.line6 {
+  position: relative;
+  left: 100px;
+  animation:
+    move2 1s infinite ease-in-out;
+    animation-delay: 0.7s;
+}
+
+.line7 {
+  position: relative;
+  left: 120px;
+  animation:
+    move 1s infinite ease-in-out;
+    animation-delay: 0.4s;
+}
+
+.line8 {
+  position: relative;
+  left: 140px;
+  animation:
+    move 1s infinite ease-in-out;
+    animation-delay: 0.5s;
+}
+
+.line9 {
+  position: relative;
+  left: 160px;
+  animation:
+    move2 1s infinite ease-in-out;
+    animation-delay: 0.2s;
+}
+
+.vertical1, .vertical2, .vertical3, .vertical4, .vertical5, .vertical6, .vertical7, .vertical8, .vertical9 {
+  width: 100%;
+  height: 2px;
+  background: red;
+}
+
+.vertical1 {
+  animation:
+    moveup 1s infinite ease-in-out;
+}
+
+.vertical2 {
+  position: relative;
+  top: 20px;
+  animation:
+  moveup2 1s infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.vertical3 {
+  position: relative;
+  top: 40px;
+  animation:
+  moveup 1s infinite ease-in-out;
+  animation-delay: 0.3s;
+}
+
+.vertical4 {
+  position: relative;
+  top: 60px;
+  animation:
+  moveup2 1s infinite ease-in-out;
+  animation-delay: 0.4s;
+}
+
+.vertical5 {
+  position: relative;
+  top: 80px;
+  animation:
+  moveup 1s infinite ease-in-out;
+  animation-delay: 0.6s;
+}
+
+.vertical6 {
+  position: relative;
+  top: 100px;
+  animation:
+  moveup2 1s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.vertical7 {
+  position: relative;
+  top: 120px;
+  animation:
+  moveup 1s infinite ease-in-out;
+  animation-delay: 0.4s;
+}
+
+.vertical8 {
+  position: relative;
+  top: 140px;
+  animation:
+  moveup2 1s infinite ease-in-out;
+  animation-delay: 0.2s;
+}
+
+.vertical9 {
+  position: relative;
+  top: 160px;
+  animation:
+  moveup2 1s infinite ease-in-out;
+  animation-delay: 0.9;
+}
+
+@keyframes move {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1000%);
+  }
+
+}
+
+@keyframes move2 {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1000%);
+  }
+
+}
+
+@keyframes moveup {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(1000%);
+  }
+
+
+}
+
+@keyframes moveup2 {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-900%);
+  }
+
+
+}
+
+
+
+
+
+</style>
